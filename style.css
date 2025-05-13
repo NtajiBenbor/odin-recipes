@@ -1,0 +1,50 @@
+*,
+::after,
+::before{
+ box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+a:visited{
+    color: black;
+}
+
+.title{
+    text-align: center;
+    background-color: darkblue;
+    color: #fff;
+    padding: 8px;
+    margin:0;
+}
+
+ul{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    margin-top: 0;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 5px;
+  
+}
+
